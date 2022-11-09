@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Главная</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main class="page-content">
+
+        <section class="section section-black section-plan">
+            <div class="section__wrapper section__wrapper-small">
+                <div class="container">
+                    <div class="section-plan__wrapper">
+                        <div class="section__info">
+                            <div class="section__subtitle">
+                                <p class="section__subtitle-label" data-animate="fade-top">WHO WE ARE</p>
+                            </div>
+                            <div class="button-more">
+                                <button class="more">
+                                    <img src="./img/button.svg" alt="button">
+                                </button>
+                            </div>
+
+                            <div class="section__title section__title-medium">
+                                <h2 class="section__title-label section__title-label-normal" data-animate="fade-top">
+                                    We’re a trusted international telecommunications company dedicated to providing our
+                                    customers with a convenient, hassle-free way to communicate without borders. <span
+                                        class="section__title-label-accent">Live like a local, say goodbye to roaming,
+                                        and get everything you want out of a SIM card.</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <div class="modal one-click hidden" id="modal-wrap">
+        <div class="modal__body">
+            <div class="modal__container">
+                <div class="modal__header ">
+                    <p class="modal__titles">
+                        <button class="modal__btn-close modal__close"></button>
+                    </p>
+                </div>
+                <div class="modal__main">
+                    <div>
+                        <div class="modal__form">
+                            <h2 class="modal__title">YOU’VE MADE THE RIGHT CHOICE!</h2>
+                            <div class="modal__wrap">
+                                <p class="modal__text">
+                                    Get started by selecting one of the plans to become a V-Tell Subscriber.
+                                </p>
+                                <p class="modal__text-item">Experience limitless freedom!</p>
+                            </div>
+                        </div>
+                        <div class="modal__button">
+                            <a class="button button-accent modal-item__button" href="#">Choose the plan</a>
+
+                        </div>
+                        <canvas id="canvas" />
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./dist/main.js"></script>
+
+</body>
+
+</html>
